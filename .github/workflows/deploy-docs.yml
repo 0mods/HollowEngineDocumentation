@@ -46,7 +46,7 @@ jobs:
             -H "Content-Type: application/json" \
             -d "$(jq -n \
               --arg title "✅ Docusaurus Deploy Succeeded" \
-              --arg url "https://hollowhorizon.github.io/HollowEngineDocumentation/" \
+              --arg url "https://hedocs.0mods.team/" \
               --arg commit "${{ github.sha }}" \
               --arg commitTitle "$COMMIT_TITLE" \
               --arg commitBody "$COMMIT_BODY" \
