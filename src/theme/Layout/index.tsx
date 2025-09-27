@@ -9,10 +9,10 @@ export default function LayoutWrapper(props) {
     useEffect(() => {
         const passed = localStorage.getItem('quiz_passed') === 'yes';
         const isQuizPage = location.pathname.endsWith('/quiz');
-        const isMainPage = location.pathname.endsWith("HollowEngineDocumentation/")
+        const isMainPage = location.pathname.endsWith("/")
 
         if (!passed && !isQuizPage && !isMainPage) {
-            history.replace('/HollowEngineDocumentation/quiz');
+            history.replace('/quiz');
         }
     }, [location.pathname]);
 
