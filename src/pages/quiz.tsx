@@ -129,7 +129,7 @@ function QuizPage() {
     useEffect(() => {
         if (submitted && score >= 7) {
             const timeout = setTimeout(() => {
-                history.push('/HollowEngineDocumentation/docs/intro');
+                history.push('/docs/intro');
             }, 5000); // 5 секунд
 
             return () => clearTimeout(timeout);
