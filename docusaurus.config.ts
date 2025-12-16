@@ -14,7 +14,7 @@ const config: Config = {
     },
 
     url: `https://${domaining}`,
-    baseUrl: '/',
+    baseUrl: '/HollowEngineDocumentation/',
     organizationName: 'HollowHorizon',
     projectName: `${domaining}`,
     deploymentBranch: 'main',
